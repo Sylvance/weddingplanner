@@ -1,0 +1,36 @@
+# Maven specific
+target/
+pom.xml.tag
+release.properties
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+
+# Eclipse specific
+.project
+.classpath
+.settings/
+
+# IntelliJ IDEA specific
+.idea/
+*.iml
+
+# NetBeans specific
+nb-configuration.xml
+
+# Gradle specific
+build/
+.gradle/
+
+# Logs
+log/
+*.log
+
+# Temporary files
+*.swp
+*~
+
+# macOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
