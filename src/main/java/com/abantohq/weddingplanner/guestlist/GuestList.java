@@ -3,8 +3,6 @@ package com.abantohq.weddingplanner.guestlist;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.abantohq.weddingplanner.guestlist.Guest;
-
 public class GuestList {
   private List<Guest> guests;
 
@@ -29,4 +27,3 @@ public class GuestList {
     return guests;
   }
 }
-
