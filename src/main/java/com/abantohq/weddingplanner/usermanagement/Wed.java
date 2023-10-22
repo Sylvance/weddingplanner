@@ -1,16 +1,16 @@
-package com.abantohq.weddingplanner.guestlist;
+package com.abantohq.weddingplanner.usermanagement;
 
-public class Guest {
+public class Wed {
   private String name;
   private String email;
   private String phoneNumber;
-  private boolean rsvpStatus;
+  private WedRole role;
 
-  public Guest(String name, String email, String phoneNumber, boolean rsvpStatus) {
+  public Wed(String name, String email, String phoneNumber, WedRole role) {
     this.name = name;
     this.email = email;
     this.phoneNumber = phoneNumber;
-    this.rsvpStatus = rsvpStatus;
+    this.role = role;
   }
 
   public String getName() {
@@ -37,17 +37,16 @@ public class Guest {
     this.phoneNumber = phoneNumber;
   }
 
-  public boolean isRsvpStatus() {
-    return rsvpStatus;
+  public WedRole getRole() {
+    return role;
   }
 
-  public void setRsvpStatus(boolean rsvpStatus) {
-    this.rsvpStatus = rsvpStatus;
+  public void setRole(WedRole role) {
+    this.role = role;
   }
 
   @Override
   public String toString() {
-    return "Guest [name=" + name + ", email=" + email + ", phoneNumber=" + phoneNumber + ", rsvpStatus=" + rsvpStatus
-        + "]";
+    return "Wed [name=" + name + ", email=" + email + ", phoneNumber=" + phoneNumber + ", role=" + role + "]";
   }
 }

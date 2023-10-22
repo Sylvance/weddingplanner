@@ -6,8 +6,8 @@ package com.abantohq.weddingplanner;
  */
 public class App
 {
-    public static void main( String[] args )
-    {
-        System.out.println( "Wedding Planner App!" );
-    }
+  public static void main( String[] args )
+  {
+    System.out.println( "Wedding Planner App!" );
+  }
 }
